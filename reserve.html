@@ -91,7 +91,7 @@ $(".submit").on("click", function(event) {
 	  
 	  console.log(newReservation);
 
-      $.post("/api/tables", newReservation,
+      $.post("/api/view", newReservation,
         function(data) {
 
 			if (data) {
